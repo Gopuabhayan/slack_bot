@@ -36,7 +36,7 @@ A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's con
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Gopuabhayan/slack_bot.git
+git clone https://github.com/Gopuabhayan/slack_bot.git
 cd slack_bot
 
 # Install dependencies
