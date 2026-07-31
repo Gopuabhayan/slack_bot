@@ -14,7 +14,7 @@ A simple, production-ready Slack bot built with Node.js and `@slack/bolt`. It's 
 
 ## 🛠️ Tech Stack
 
-* **Node.js** (v18+)
+* **Node.js**
 * **@slack/bolt** framework
 * **systemd** (Linux process management)
 
