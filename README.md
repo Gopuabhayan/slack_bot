@@ -1,6 +1,6 @@
-# Slacky - Slack Bot Service
+# Slacky - Slack Bot 
 
-A simple, production-ready Slack bot built with Node.js and `@slack/bolt`. It's configured to run continuously as a systemd background service on Linux.
+A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's configured to run continuously as a systemd background service on Linux.
 
 ---
 
@@ -15,8 +15,8 @@ A simple, production-ready Slack bot built with Node.js and `@slack/bolt`. It's 
 ## 🛠️ Tech Stack
 
 * **Node.js**
-* **@slack/bolt** framework
-* **systemd** (Linux process management)
+* **neo/ping** 
+* **systemd** 
 
 ---
 
@@ -36,7 +36,7 @@ A simple, production-ready Slack bot built with Node.js and `@slack/bolt`. It's 
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Gopuabhayan/slack_bot.git](https://github.com/Gopuabhayan/slack_bot.git)
+git clone [https://github.com/Gopuabhayan/slack_bot.git
 cd slack_bot
 
 # Install dependencies
