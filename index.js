@@ -21,6 +21,13 @@ app.command("/neo-catfact", async ({ ack, respond }) => {
 });
 
 
+app.command("/neo-help", async ({ ack, respond }) => {
+  await ack();
+  await respond({ text: "how can I help you?" });
+});
+    await respond({ text: "my name is Neo!" });
+
+
 app.command("/neo-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
   await ack();
