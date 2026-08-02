@@ -6,7 +6,10 @@ A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's con
 
 ## 📌 What it does look like
 
-![slacky demo](/home/doom/Pictures/Screenshots/demo.png)
+<p align="center">
+  <img src="demo.png" alt="Slacky Demo" width="100%">
+</p>
+
 
 ---
 
