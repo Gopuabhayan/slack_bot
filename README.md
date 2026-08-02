@@ -4,15 +4,13 @@ A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's con
 
 ---
 
-## 📌 What it does
+## 📌 What it does look like
 
-* **Slack Integration:** Responds to mentions, slash commands, and events using Socket Mode.
-* **Background Service:** Runs as a systemd daemon (`slacky.service`), so it stays active 24/7 and auto-restarts on failure.
-* **Clean Config:** Uses `dotenv` for handling tokens and environment variables safely.
+![slacky demo](/home/doom/Pictures/Screenshots/demo.png)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ tools
 
 * **Node.js**
 * **neo/ping** 
@@ -20,7 +18,7 @@ A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's con
 
 ---
 
-## 🚀 Setup & Installation
+## 🚀 Setup & installation
 
 ### 1. Prerequisites
 * Node.js & npm installed
