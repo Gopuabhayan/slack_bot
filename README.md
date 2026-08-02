@@ -12,11 +12,10 @@ A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's con
 
 ---
 
-## 🛠️ tools
+## 🛠️ commant
 
-* **Node.js**
-* **neo/ping** 
-* **systemd** 
+* **neo/ping**
+* **neo/catfact** 
 
 ---
 
