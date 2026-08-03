@@ -1,38 +1,38 @@
 # Slacky - Slack Bot 
 
-A simple, production-ready Slack bot built with Node.js and `neo/ping`. It's configured to run continuously as a systemd background service on Linux.
+A Slack bot that has tools, made using Node.js and the Slack Bolt framework. Hosted 24/7 on Nest.
+
 
 ---
 
-## 📌 What it does look like
+ slacky in Action:
 
 ![Slacky Demo](assets/demo.png)
 
 
-
 ---
 
-## 🛠️ commant
+ commant & featurs
 
-* **neo/ping**
-* **/neo-catfact**
-* **/neo-help**
+* /neo-ping - Checks the bot's current network latency.
+* /neo-catfact - Gets cat facts 
+* /neo-help - ask, how can I help you
 
 ---
 
 ## 🚀 Setup & installation
 
-### 1. Prerequisites
+ Prerequisites
 * Node.js & npm installed
 * A Slack workspace with permission to add custom apps
 
-### 2. Get your Slack Tokens
+ Get your Slack Tokens
 1. Go to [Slack API Dashboard](https://api.slack.com/apps) and create an app.
 2. Enable **Socket Mode** and copy the App Token (`xapp-...`).
 3. Under **OAuth & Permissions**, add required Bot Scopes (`chat:write`, `app_mentions:read`, etc.).
 4. Install the app to your workspace and copy the Bot Token (`xoxb-...`).
 
-### 3. Local Setup
+  Setup
 
 ```bash
 # Clone the repository
