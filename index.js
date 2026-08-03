@@ -23,9 +23,16 @@ app.command("/neo-catfact", async ({ ack, respond }) => {
 
 app.command("/neo-help", async ({ ack, respond }) => {
   await ack();
-  await respond({ text: "how can I help you?" });
-});
-    await respond({ text: "my name is Neo!" });
+
+  await respond({
+    text: `🤖 SlackBot HackClub Commands
+
+    /neo-catfact - Get a random cat fact
+    /neo-ping - Check the bot's latency
+    /neo-help - Show this help message`
+  });
+});   
+
 
 
 app.command("/neo-ping", async ({ command, ack, respond }) => {
